@@ -1,0 +1,22 @@
+Used this program as a reason to learn how to deal with time structures, and 
+various things in time.h. sys/time.h is another header to look at.
+
+Also used this program to learn how to use dirent structures, and access
+directories in the linux system.
+
+This program,
+
+gets time information,
+gets PID information from proc/
+gathers a pseudo generated random number
+does random bitwise things i threw in for fun.
+
+returns a random number based on the mod value passed.
+
+Not really 100% practical, but was a fun learning exercise.
+
+Was my first time ever touching pthreads aswell.
+
+Again, this was just to play around with new libraries and new functions and
+see how things tick! The threading is not worth it as the overhead for the 
+threads outweights their task drastically.
